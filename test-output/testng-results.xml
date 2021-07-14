@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+    <line>
+      <![CDATA[ Suite Execution starts Mon Jan 14 11:22:38 IST 2019]]>
+    </line>
+    <line>
+      <![CDATA[Chrome browser  launched ]]>
+    </line>
+    <line>
+      <![CDATA[http://127.0.0.1/login.do Url is navigated ]]>
+    </line>
+    <line>
+      <![CDATA[validLogin  Script Execution start ]]>
+    </line>
+    <line>
+      <![CDATA[Home Page Is Varified]]>
+    </line>
+    <line>
+      <![CDATA[Home page title is verified ]]>
+    </line>
+    <line>
+      <![CDATA[validLogin  Script Passed : ) ]]>
+    </line>
+    <line>
+      <![CDATA[Browser closed ]]>
+    </line>
+    <line>
+      <![CDATA[All session are closed ]]>
+    </line>
+    <line>
+      <![CDATA[Chrome browser  launched ]]>
+    </line>
+    <line>
+      <![CDATA[http://127.0.0.1/login.do Url is navigated ]]>
+    </line>
+    <line>
+      <![CDATA[invalidLogin  Script Execution start ]]>
+    </line>
+    <line>
+      <![CDATA[Invalid login is varified]]>
+    </line>
+    <line>
+      <![CDATA[invalidLogin  Script Passed : ) ]]>
+    </line>
+    <line>
+      <![CDATA[Browser closed ]]>
+    </line>
+    <line>
+      <![CDATA[All session are closed ]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="44380" started-at="2019-01-14T05:52:38Z" finished-at="2019-01-14T05:53:23Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="44380" started-at="2019-01-14T05:52:38Z" finished-at="2019-01-14T05:53:23Z">
+      <class name="com.ActiTime.scripts.LoginTest">
+        <test-method status="PASS" signature="preCondition(java.lang.String, java.lang.String)[pri:0, instance:com.ActiTime.scripts.LoginTest@4883b407]" name="preCondition" is-config="true" duration-ms="15403" started-at="2019-01-14T05:52:38Z" finished-at="2019-01-14T05:52:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://127.0.0.1/login.do]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Chrome browser  launched ]]>
+            </line>
+            <line>
+              <![CDATA[http://127.0.0.1/login.do Url is navigated ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- preCondition -->
+        <test-method status="PASS" signature="validLogin()[pri:1, instance:com.ActiTime.scripts.LoginTest@4883b407]" name="validLogin" duration-ms="15679" started-at="2019-01-14T05:52:54Z" description="verify valid login and home page" finished-at="2019-01-14T05:53:09Z">
+          <reporter-output>
+            <line>
+              <![CDATA[validLogin  Script Execution start ]]>
+            </line>
+            <line>
+              <![CDATA[Home Page Is Varified]]>
+            </line>
+            <line>
+              <![CDATA[Home page title is verified ]]>
+            </line>
+            <line>
+              <![CDATA[validLogin  Script Passed : ) ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- validLogin -->
+        <test-method status="PASS" signature="postCondition()[pri:0, instance:com.ActiTime.scripts.LoginTest@4883b407]" name="postCondition" is-config="true" duration-ms="3065" started-at="2019-01-14T05:53:09Z" finished-at="2019-01-14T05:53:12Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Browser closed ]]>
+            </line>
+            <line>
+              <![CDATA[All session are closed ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+        <test-method status="PASS" signature="preCondition(java.lang.String, java.lang.String)[pri:0, instance:com.ActiTime.scripts.LoginTest@4883b407]" name="preCondition" is-config="true" duration-ms="7450" started-at="2019-01-14T05:53:12Z" finished-at="2019-01-14T05:53:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://127.0.0.1/login.do]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Chrome browser  launched ]]>
+            </line>
+            <line>
+              <![CDATA[http://127.0.0.1/login.do Url is navigated ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- preCondition -->
+        <test-method status="PASS" signature="invalidLogin()[pri:2, instance:com.ActiTime.scripts.LoginTest@4883b407]" name="invalidLogin" duration-ms="1710" started-at="2019-01-14T05:53:20Z" description="verify Invalid login" finished-at="2019-01-14T05:53:22Z">
+          <reporter-output>
+            <line>
+              <![CDATA[invalidLogin  Script Execution start ]]>
+            </line>
+            <line>
+              <![CDATA[Invalid login is varified]]>
+            </line>
+            <line>
+              <![CDATA[invalidLogin  Script Passed : ) ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- invalidLogin -->
+        <test-method status="PASS" signature="postCondition()[pri:0, instance:com.ActiTime.scripts.LoginTest@4883b407]" name="postCondition" is-config="true" duration-ms="999" started-at="2019-01-14T05:53:22Z" finished-at="2019-01-14T05:53:23Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Browser closed ]]>
+            </line>
+            <line>
+              <![CDATA[All session are closed ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+      </class> <!-- com.ActiTime.scripts.LoginTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

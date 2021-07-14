@@ -1,0 +1,374 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="3" total="8" passed="5">
+  <reporter-output>
+    <line>
+      <![CDATA[ Suite Execution starts Tue Jan 15 18:18:44 IST 2019]]>
+    </line>
+    <line>
+      <![CDATA[Chrome browser  launched ]]>
+    </line>
+    <line>
+      <![CDATA[http://127.0.0.1/login.do Url is navigated ]]>
+    </line>
+    <line>
+      <![CDATA[validLogin  Script Execution start ]]>
+    </line>
+    <line>
+      <![CDATA[Home Page Is Varified]]>
+    </line>
+    <line>
+      <![CDATA[Home page title is verified ]]>
+    </line>
+    <line>
+      <![CDATA[validLogin  Script Passed : ) ]]>
+    </line>
+    <line>
+      <![CDATA[Browser closed ]]>
+    </line>
+    <line>
+      <![CDATA[All session are closed ]]>
+    </line>
+    <line>
+      <![CDATA[Chrome browser  launched ]]>
+    </line>
+    <line>
+      <![CDATA[http://127.0.0.1/login.do Url is navigated ]]>
+    </line>
+    <line>
+      <![CDATA[invalidLogin  Script Execution start ]]>
+    </line>
+    <line>
+      <![CDATA[Invalid login is varified]]>
+    </line>
+    <line>
+      <![CDATA[invalidLogin  Script Passed : ) ]]>
+    </line>
+    <line>
+      <![CDATA[Browser closed ]]>
+    </line>
+    <line>
+      <![CDATA[All session are closed ]]>
+    </line>
+    <line>
+      <![CDATA[ Suite Execution Ends Tue Jan 15 18:19:08 IST 2019]]>
+    </line>
+    <line>
+      <![CDATA[ Suite Execution starts Tue Jan 15 18:19:08 IST 2019]]>
+    </line>
+    <line>
+      <![CDATA[Chrome browser  launched ]]>
+    </line>
+    <line>
+      <![CDATA[http://127.0.0.1/login.do Url is navigated ]]>
+    </line>
+    <line>
+      <![CDATA[createCustomer  Script Execution start ]]>
+    </line>
+    <line>
+      <![CDATA[Create customer message is displayed ]]>
+    </line>
+    <line>
+      <![CDATA[Customer "GE HealthCare" has been successfully created.]]>
+    </line>
+    <line>
+      <![CDATA[createCustomer  Script Passed : ) ]]>
+    </line>
+    <line>
+      <![CDATA[Browser closed ]]>
+    </line>
+    <line>
+      <![CDATA[All session are closed ]]>
+    </line>
+    <line>
+      <![CDATA[Chrome browser  launched ]]>
+    </line>
+    <line>
+      <![CDATA[http://127.0.0.1/login.do Url is navigated ]]>
+    </line>
+    <line>
+      <![CDATA[createProject  Script Execution start ]]>
+    </line>
+    <line>
+      <![CDATA[Create project message is displayed ]]>
+    </line>
+    <line>
+      <![CDATA[Project "Medical Software" has been successfully created.]]>
+    </line>
+    <line>
+      <![CDATA[createProject  Script Passed : ) ]]>
+    </line>
+    <line>
+      <![CDATA[Browser closed ]]>
+    </line>
+    <line>
+      <![CDATA[All session are closed ]]>
+    </line>
+    <line>
+      <![CDATA[Chrome browser  launched ]]>
+    </line>
+    <line>
+      <![CDATA[http://127.0.0.1/login.do Url is navigated ]]>
+    </line>
+    <line>
+      <![CDATA[createTask  Script Execution start ]]>
+    </line>
+    <line>
+      <![CDATA[1 new task was added to the customer "GE HealthCare", project "Medical Software".]]>
+    </line>
+    <line>
+      <![CDATA[createTask  Script Passed : ) ]]>
+    </line>
+    <line>
+      <![CDATA[Browser closed ]]>
+    </line>
+    <line>
+      <![CDATA[All session are closed ]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="78335" started-at="2019-01-15T12:48:44Z" finished-at="2019-01-15T12:50:03Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="23571" started-at="2019-01-15T12:48:44Z" finished-at="2019-01-15T12:49:08Z">
+      <class name="com.ActiTime.scripts.LoginTest">
+        <test-method status="PASS" signature="preCondition(java.lang.String, java.lang.String)[pri:0, instance:com.ActiTime.scripts.LoginTest@4909b8da]" name="preCondition" is-config="true" duration-ms="8864" started-at="2019-01-15T12:48:44Z" finished-at="2019-01-15T12:48:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://127.0.0.1/login.do]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Chrome browser  launched ]]>
+            </line>
+            <line>
+              <![CDATA[http://127.0.0.1/login.do Url is navigated ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- preCondition -->
+        <test-method status="PASS" signature="validLogin()[pri:1, instance:com.ActiTime.scripts.LoginTest@4909b8da]" name="validLogin" duration-ms="5172" started-at="2019-01-15T12:48:53Z" description="verify valid login and home page" finished-at="2019-01-15T12:48:58Z">
+          <reporter-output>
+            <line>
+              <![CDATA[validLogin  Script Execution start ]]>
+            </line>
+            <line>
+              <![CDATA[Home Page Is Varified]]>
+            </line>
+            <line>
+              <![CDATA[Home page title is verified ]]>
+            </line>
+            <line>
+              <![CDATA[validLogin  Script Passed : ) ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- validLogin -->
+        <test-method status="PASS" signature="postCondition()[pri:0, instance:com.ActiTime.scripts.LoginTest@4909b8da]" name="postCondition" is-config="true" duration-ms="2284" started-at="2019-01-15T12:48:58Z" finished-at="2019-01-15T12:49:01Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Browser closed ]]>
+            </line>
+            <line>
+              <![CDATA[All session are closed ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+        <test-method status="PASS" signature="preCondition(java.lang.String, java.lang.String)[pri:0, instance:com.ActiTime.scripts.LoginTest@4909b8da]" name="preCondition" is-config="true" duration-ms="5140" started-at="2019-01-15T12:49:01Z" finished-at="2019-01-15T12:49:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://127.0.0.1/login.do]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Chrome browser  launched ]]>
+            </line>
+            <line>
+              <![CDATA[http://127.0.0.1/login.do Url is navigated ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- preCondition -->
+        <test-method status="PASS" signature="invalidLogin()[pri:2, instance:com.ActiTime.scripts.LoginTest@4909b8da]" name="invalidLogin" duration-ms="1683" started-at="2019-01-15T12:49:06Z" description="verify Invalid login" finished-at="2019-01-15T12:49:07Z">
+          <reporter-output>
+            <line>
+              <![CDATA[invalidLogin  Script Execution start ]]>
+            </line>
+            <line>
+              <![CDATA[Invalid login is varified]]>
+            </line>
+            <line>
+              <![CDATA[invalidLogin  Script Passed : ) ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- invalidLogin -->
+        <test-method status="PASS" signature="postCondition()[pri:0, instance:com.ActiTime.scripts.LoginTest@4909b8da]" name="postCondition" is-config="true" duration-ms="326" started-at="2019-01-15T12:49:07Z" finished-at="2019-01-15T12:49:08Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Browser closed ]]>
+            </line>
+            <line>
+              <![CDATA[All session are closed ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+      </class> <!-- com.ActiTime.scripts.LoginTest -->
+    </test> <!-- Test -->
+    <test name="Test1" duration-ms="54663" started-at="2019-01-15T12:49:08Z" finished-at="2019-01-15T12:50:03Z">
+      <class name="com.ActiTime.scripts.TaskTest">
+        <test-method status="PASS" signature="preCondition(java.lang.String, java.lang.String)[pri:0, instance:com.ActiTime.scripts.TaskTest@39fb3ab6]" name="preCondition" is-config="true" duration-ms="5040" started-at="2019-01-15T12:49:08Z" finished-at="2019-01-15T12:49:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://127.0.0.1/login.do]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Chrome browser  launched ]]>
+            </line>
+            <line>
+              <![CDATA[http://127.0.0.1/login.do Url is navigated ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- preCondition -->
+        <test-method status="PASS" signature="createCustomer()[pri:0, instance:com.ActiTime.scripts.TaskTest@39fb3ab6]" name="createCustomer" duration-ms="6408" started-at="2019-01-15T12:49:13Z" description="verify create customer" finished-at="2019-01-15T12:49:19Z">
+          <reporter-output>
+            <line>
+              <![CDATA[createCustomer  Script Execution start ]]>
+            </line>
+            <line>
+              <![CDATA[Create customer message is displayed ]]>
+            </line>
+            <line>
+              <![CDATA[Customer "GE HealthCare" has been successfully created.]]>
+            </line>
+            <line>
+              <![CDATA[createCustomer  Script Passed : ) ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- createCustomer -->
+        <test-method status="PASS" signature="postCondition()[pri:0, instance:com.ActiTime.scripts.TaskTest@39fb3ab6]" name="postCondition" is-config="true" duration-ms="436" started-at="2019-01-15T12:49:19Z" finished-at="2019-01-15T12:49:20Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Browser closed ]]>
+            </line>
+            <line>
+              <![CDATA[All session are closed ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+        <test-method status="PASS" signature="preCondition(java.lang.String, java.lang.String)[pri:0, instance:com.ActiTime.scripts.TaskTest@39fb3ab6]" name="preCondition" is-config="true" duration-ms="5427" started-at="2019-01-15T12:49:20Z" finished-at="2019-01-15T12:49:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://127.0.0.1/login.do]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Chrome browser  launched ]]>
+            </line>
+            <line>
+              <![CDATA[http://127.0.0.1/login.do Url is navigated ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- preCondition -->
+        <test-method status="PASS" signature="createProject()[pri:0, instance:com.ActiTime.scripts.TaskTest@39fb3ab6]" name="createProject" duration-ms="14696" started-at="2019-01-15T12:49:25Z" description="Create project verify" depends-on-methods="com.ActiTime.scripts.TaskTest.createCustomer" finished-at="2019-01-15T12:49:40Z">
+          <reporter-output>
+            <line>
+              <![CDATA[createProject  Script Execution start ]]>
+            </line>
+            <line>
+              <![CDATA[Create project message is displayed ]]>
+            </line>
+            <line>
+              <![CDATA[Project "Medical Software" has been successfully created.]]>
+            </line>
+            <line>
+              <![CDATA[createProject  Script Passed : ) ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- createProject -->
+        <test-method status="PASS" signature="postCondition()[pri:0, instance:com.ActiTime.scripts.TaskTest@39fb3ab6]" name="postCondition" is-config="true" duration-ms="398" started-at="2019-01-15T12:49:40Z" finished-at="2019-01-15T12:49:40Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Browser closed ]]>
+            </line>
+            <line>
+              <![CDATA[All session are closed ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+        <test-method status="PASS" signature="preCondition(java.lang.String, java.lang.String)[pri:0, instance:com.ActiTime.scripts.TaskTest@39fb3ab6]" name="preCondition" is-config="true" duration-ms="5890" started-at="2019-01-15T12:49:40Z" finished-at="2019-01-15T12:49:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://127.0.0.1/login.do]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Chrome browser  launched ]]>
+            </line>
+            <line>
+              <![CDATA[http://127.0.0.1/login.do Url is navigated ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- preCondition -->
+        <test-method status="PASS" signature="createTask()[pri:0, instance:com.ActiTime.scripts.TaskTest@39fb3ab6]" name="createTask" duration-ms="15804" started-at="2019-01-15T12:49:46Z" description="verify create task" depends-on-methods="com.ActiTime.scripts.TaskTest.createProject" finished-at="2019-01-15T12:50:02Z">
+          <reporter-output>
+            <line>
+              <![CDATA[createTask  Script Execution start ]]>
+            </line>
+            <line>
+              <![CDATA[1 new task was added to the customer "GE HealthCare", project "Medical Software".]]>
+            </line>
+            <line>
+              <![CDATA[createTask  Script Passed : ) ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- createTask -->
+        <test-method status="PASS" signature="postCondition()[pri:0, instance:com.ActiTime.scripts.TaskTest@39fb3ab6]" name="postCondition" is-config="true" duration-ms="554" started-at="2019-01-15T12:50:02Z" finished-at="2019-01-15T12:50:03Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Browser closed ]]>
+            </line>
+            <line>
+              <![CDATA[All session are closed ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+      </class> <!-- com.ActiTime.scripts.TaskTest -->
+    </test> <!-- Test1 -->
+  </suite> <!-- Suite -->
+</testng-results>
